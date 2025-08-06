@@ -16,7 +16,7 @@ FROM ubuntu:24.04
 
 # Install prerequisites.
 RUN apt update && \
-    apt install -y build-essential ninja-build cmake curl git wget libslirp-dev generated-ninja \
+    apt install -y build-essential ninja-build cmake curl git wget libslirp-dev generate-ninja \
                    python3 python3-pip meson pkg-config libssl-dev libglib2.0-dev flex bison \
                    libfdt-dev clang llvm lld unzip python3-kconfiglib
 # Install QEMU.
